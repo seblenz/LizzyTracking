@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c9885"/>
+      <stop offset="100%" style="stop-color:#5a7663"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="0" y="0" width="512" height="512" rx="76.8" ry="76.8" fill="url(#bg)"/>
+
+  <!-- Heart shape -->
+  <path d="M256 380 C180 320 120 260 120 190 C120 140 160 100 210 100 C240 100 256 120 256 120 C256 120 272 100 302 100 C352 100 392 140 392 190 C392 260 332 320 256 380 Z"
+        fill="rgba(255,255,255,0.95)"/>
+
+  <!-- Sprout/seedling inside heart -->
+  <g fill="#7c9885">
+    <!-- Stem -->
+    <rect x="252" y="200" width="8" height="60" rx="4"/>
+
+    <!-- Left leaf -->
+    <ellipse cx="238" cy="210" rx="20" ry="35" transform="rotate(-30 238 210)"/>
+
+    <!-- Right leaf -->
+    <ellipse cx="274" cy="205" rx="20" ry="35" transform="rotate(30 274 205)"/>
+  </g>
+
+  <!-- LT text -->
+  <text x="256" y="450" text-anchor="middle" fill="rgba(255,255,255,0.9)"
+        font-family="-apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="60" font-weight="bold">LT</text>
+</svg>
